@@ -1,0 +1,145 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.messages {
+	background: #323233;
+	border-radius: 10px 10px 0 0;
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	gap: 20px;
+	height: 70vh;
+	width: 100%;
+	overflow-y: auto;
+}
+
+.message {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.message .text {
+	background: #8d74ff;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.message.my {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	align-self: flex-end;
+}
+
+.message.my .text {
+	background: #d14cc6;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.author {
+	color: #8d74ff;
+	cursor: pointer;
+}
+
+.author.me {
+	color: #ff74f3;
+}
+
+.messageInput {
+	padding: 10px;
+	border-radius: 0 0 10px 10px;
+	border: none;
+	font-size: 24px;
+	margin-right: 10px;
+	transition: 0.2s;
+	outline: none;
+	background: #262627;
+	width: 100%;
+	color: #fff;
+}
+
+.sendBtn {
+	padding: 5px 15px;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+	color: #fff;
+	background: #8d74ff;
+	transition: 0.2s;
+	border: 2px solid #8d74ff;
+	position: absolute;
+	bottom: 50%;
+	right: 5px;
+	transform: translateY(50%);
+}
+
+.sendBtn:hover {
+	background: transparent;
+	color: #8d74ff;
+}
+
+.messageForm {
+	position: relative;
+}
+
+.end {
+	position: relative;
+	bottom: -15%;
+}
+
+.connect {
+	color: #646469;
+	width: 100%;
+}
+
+.nameInput {
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	font-size: 24px;
+	margin-right: 10px;
+	transition: 0.2s;
+	outline: none;
+	background: #262627;
+	width: auto;
+	color: #fff;
+	border: 2px solid transparent;
+	width: 100%;
+}
+
+.nameInput:focus {
+	border: 2px solid #8d74ff;
+}
+
+.connectForm {
+	display: flex;
+	flex-direction: column;
+	max-width: 40%;
+	margin: 0 auto;
+	gap: 20px;
+	align-items: center;
+}
+
+.connectBtn {
+	padding: 10px 15px;
+	border-radius: 10px;
+	font-size: 20px;
+	cursor: pointer;
+	color: #fff;
+	background: #8d74ff;
+	transition: 0.2s;
+	border: 2px solid #8d74ff;
+	width: 100%;
+}
+
+.connectBtn:hover {
+	background: transparent;
+	color: #8d74ff;
+}

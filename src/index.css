@@ -1,0 +1,29 @@
+* {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background: #212122;
+	color: #e6e6ee;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #88888821;
+	border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #88888833;
+}
