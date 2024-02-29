@@ -15,7 +15,7 @@ function App() {
 	const [username, setUsername] = useState('')
 	const [isSignIn, SetSignIn] = useState(false)
 
-	const messenger = useRef()
+	const messenger = useRef<HTMLInputElement>(null)
 
 	function backToTop() {
 		messenger?.current?.scrollIntoView({ block: 'end' })
