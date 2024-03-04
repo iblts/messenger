@@ -1,7 +1,9 @@
 import { useRef, useState } from 'react'
 import './App.css'
 
-const exampleSocket = new WebSocket('ws://localhost:3000/')
+const exampleSocket = new WebSocket(
+	'ws://messenger-server-2aox.onrender.com:3000/'
+)
 
 interface message {
 	method: string
